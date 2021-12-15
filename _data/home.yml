@@ -20,8 +20,6 @@ project_entries:
     highlight: NEW
     
 old_project_entries:
-  - title: None
-    url: false
 
 footer_entries:
   - title: GitHub
