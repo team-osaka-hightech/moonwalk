@@ -1,7 +1,7 @@
 ---
 title: 2021年度生
 layout: post
-permalink: /2021/
+permalink: /2021/member/
 ---
 ## 名前
 自己紹介的なもの
