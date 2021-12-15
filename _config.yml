@@ -32,7 +32,7 @@ theme_config:
   # options for "home" page
   home:
     title_projects: 現役生
-    title_misc_list: Details
+    title_misc_list: その他
     title_blog: Blog
     title_old_projects: 卒業生
 
