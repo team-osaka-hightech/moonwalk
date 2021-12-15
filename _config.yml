@@ -1,8 +1,8 @@
-title: Moonwalk
-author: Abhinav Saxena
-url: https://www.abhinavsaxena.com/moonwalk # root address of the site
+title: Team HighTech
+author: Team HighTech
+url: https://team-osaka-hightech.github.io # root address of the site
 description: > # description of the site (multiple lines allowed)
-  Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes with horizontal list (for navbar and footer), card list (for portfolio), and a generic vertical list. It is very easy to modify in case you want to build over it - please see _layouts/home.html to do that.
+  このサイトは、大阪ハイテクノロジー専門学校の学生と講師で作った非公式のサイトです。授業の一環でGitHubの使い方を学ぶために作成しました。
 
 permalink: /:slug.html
 
