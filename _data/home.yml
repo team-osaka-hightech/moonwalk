@@ -20,12 +20,14 @@ project_entries:
     highlight: NEW
     
 old_project_entries:
+  - title: None
+    url: false
 
 footer_entries:
   - title: Team HighTech web site
     url: https://team-osaka-hightech.github.io
 
-  - title: github
+  - title: GitHub
     url: https://github.com/team-osaka-hightech
 
   - title: feed
