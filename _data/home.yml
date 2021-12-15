@@ -20,6 +20,9 @@ project_entries:
     highlight: NEW
     
 old_project_entries:
+  - title: 講師
+    url: lecturer
+    desc: 講師のページ
 
 footer_entries:
   - title: GitHub
