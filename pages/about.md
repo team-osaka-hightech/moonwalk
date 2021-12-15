@@ -1,9 +1,6 @@
 ---
 layout: post
 permalink: /about/
-title: About
+title: このサイトについて
 ---
-
-This is an example page!
-
-Actually, it has the same layout of a post...
+このサイトは、大阪ハイテクノロジー専門学校の学生と講師で作った非公式のサイトです。授業の一環でGitHubの使い方を学ぶために作成しました。
