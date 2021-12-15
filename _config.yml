@@ -34,7 +34,7 @@ theme_config:
     title_projects: 現役生
     title_misc_list: その他
     title_blog: Blog
-    title_old_projects: 講師
+    title_old_projects: その他
 
 soopr:
   publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
