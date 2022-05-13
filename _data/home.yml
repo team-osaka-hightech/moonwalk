@@ -10,7 +10,7 @@ project_entries:
     url: 2022
     desc: 2022年度生のページ
 
-- title: 2021年度生
+  - title: 2021年度生
     url: 2021
     desc: 2021年度生のページ
 
