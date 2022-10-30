@@ -1,0 +1,79 @@
+// $h1-bg-color: 1em;
+// $h1-font-color: 1em;
+
+$font-color: #696969; 
+$body-color: #ffffff;
+$link-color: #4072B3;
+
+$h2-bg-color: #696969;
+$h2-font-color: $body-color;
+$h3-bg-color: #696969;
+$h3-font-color: $body-color;
+$h4-bg-color: #696969;
+$h4-font-color: $body-color;
+
+// $h2-bg-color: rgba(192, 192, 192, 0.6);
+// $h2-font-color: inherit;
+// $h3-bg-color: rgba(255, 255, 0, 0.4);
+// $h3-font-color: inherit;
+// $h4-bg-color: rgba(245, 245, 245, 0.8);
+// $h4-font-color: inherit;
+
+// $h5-bg-color: 1em;
+// $h5-font-color: 1em;
+// $h6-bg-color: 1em;
+// $h6-font-color: 1em;
+
+
+body {
+    color: $font-color;
+    background-color: $body-color;
+    font-family: "Noto Sans JP", sans-serif;
+    line-height: 1.8em;
+    font-size: 1em;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: $link-color;
+}
+
+h1 {
+    border-radius: 15px;
+}
+
+h2, h3, h4 {
+    padding: 10px 10px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 1.4em;
+    color: $h2-font-color;
+    background: $h2-bg-color;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: $h3-font-color;
+    background: $h3-bg-color;
+}
+
+h4 {
+    font-size: 0.8em;
+    color: $h4-font-color;
+    background: $h4-bg-color;
+}
+
+.highlight pre code {
+    white-space: pre-wrap;
+    padding: 15px;
+}
+
+td {
+    padding: 0 15px;
+}
+
+i {
+    margin-right: 5px;
+}
