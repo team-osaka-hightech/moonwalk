@@ -1,49 +1,62 @@
-title: Team HighTech
-author: Team HighTech
-url: https://team-osaka-hightech.github.io # root address of the site
-description: > # description of the site (multiple lines allowed)
-  このサイトは、大阪ハイテクノロジー専門学校の学生と講師で作った非公式のサイトです。授業の一環でGitHubの使い方を学ぶために作成しました。
+# Site settings
+title    : "Team HighTech"
+description   : "このサイトは、大阪ハイテクノロジー専門学校の学生と講師で作った非公式のサイトです。授業の一環でGitHubの使い方を学ぶために作成しました。"
+keywords      : ""
+url           : https://team-osaka-hightech.github.io # site url
+baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+cover         : "" # image uri like logo/cover image for site seo
 
-permalink: /:slug.html
+google_analytics  : #UA-XXXXX-XX
+twitter_username  : ""
+comments_enabled  : false # if enabled (set to true), please provide your disqus_username
+disqus_shortname  : ""
+postshare_enabled : false
 
-favicon: "./logo.png" # relative path to site's favicon
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
 
-twitter:
-    username: abhinav # update or delete this
-    card: summary_large_image
+source      : ./
+destination : ./_site
 
-#theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
-remote_theme: abhinavs/moonwalk
-
-theme_config:
-  appearance: "auto" # can be "light", "dark" or "auto"
-  appearance_toggle: true # if appearance can be switched by user
-  back_home_text: "ホームへ戻る" # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: true # show blog description
-  show_navbar: true # show horizontal navbar
-  show_footer: true # show footer links in home page,add in _data/home.yml
-  show_copyright: true # show copyright notice in footer
-  # following keys are using to create home layout
-  show_projects: true # show projects as cards, add in _data/home.yml
-  show_blog: true # show blog posts added in _posts
-  show_old_projects: true # show old projects as cards, add in _data/home.yml
-  show_misc_list: false # show generic vertical list for misc details, add _data/home.yml
-  # options for "home" page
-  home:
-    title_projects: 現役生
-    title_misc_list: その他
-    title_blog: Blog
-    title_old_projects: その他
-
-soopr:
-  publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
-
-highlighter: rouge
-
+# Sass configuration
 sass:
-  style: :compressed
+  sass_dir  : assets/scss
+  style     : compressed # expanded
+
+# Author settings
+author:
+  name     : "John Doe"
 
 plugins:
-  - jekyll-feed
-  - jekyll-soopr-seo-tag
+  - jekyll-sitemap
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  # - slug : about
+  #   title: About
+  # - slug : blog
+  #   title: Blog
+
+exclude:
+  - "gulp"
+  - "node_modules"
+  - "bower"
+  - "bower_components"
+  - "config.rb"
+  - "src"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - ".rvmrc"
+  - ".rbenv-version"
+  - "package.json"
+  - "gulpfile.js"
+  - "README.md"
+  - "Rakefile"
+  - "changelog.md"
+  - "script"
+  - "vendor"
+  - "thinkspace.gemspec"
