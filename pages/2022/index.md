@@ -14,7 +14,7 @@ permalink: /2022/
 - [名前6）](https://yahoo.co.jp)
 - [名前7）](https://yahoo.co.jp)
 - [名前8）](https://yahoo.co.jp)
-- [名前9）](https://yahoo.co.jp)
+- [akyia8115](https://onediolus.github.io/)
 - [名前10）](https://yahoo.co.jp)
 - [名前11）](https://yahoo.co.jp)
 - [名前12）](https://yahoo.co.jp)
