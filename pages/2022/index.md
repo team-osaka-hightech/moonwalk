@@ -7,7 +7,7 @@ permalink: /2022/
 
 ## 個人ページへのリンク
 - [名前1）](https://yahoo.co.jp)
-- [名前2）](https://yahoo.co.jp)
+- [だいちんまる）](https://daithin.github.io)
 - [名前3）](https://yahoo.co.jp)
 - [名前4）](https://yahoo.co.jp)
 - [名前5）](https://yahoo.co.jp)
