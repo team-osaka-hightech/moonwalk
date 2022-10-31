@@ -6,7 +6,7 @@ permalink: /2022/
 - [メンバー一覧](member/)
 
 ## 個人ページへのリンク
-- [名前1）](https://yahoo.co.jp)
+- [area51](https://area0051.github.io)
 - [名前2）](https://yahoo.co.jp)
 - [名前3）](https://yahoo.co.jp)
 - [名前4）](https://yahoo.co.jp)
